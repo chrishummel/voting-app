@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node ./server/index.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/server/testHelper.js --recursive"
   },
   "babel": {
